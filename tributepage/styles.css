@@ -1,0 +1,103 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  background-color:rgba(255,255,255,0);
+}
+#main{
+  background-color:#bbb;
+  margin:10px auto;
+  max-width:900px;
+}
+
+
+.heading{
+  color:#fff;
+  font-weight:normal;
+  font-family:impact;
+  text-align:center;
+  padding-top:20px;
+ 
+}
+#tribute-info{
+  text-align:center;
+  color:white;
+  font-style:italic;
+  font-size:20px;
+  padding-bottom:20px;
+  margin-bottom:-10px;
+  
+}
+
+#img-div{
+width:100%;
+background-color:#6663;
+object-fit:cover;
+
+}
+
+img{
+  width:100%;
+  display:block;
+  padding:20px;
+  margin:0px auto;
+  max-width:100%;
+  min-width:(300px, 20vw);
+}
+#img-caption{
+  color:black;
+  padding:20px;
+  display:inline-block;
+  margin-top:-20px;
+  font-family:sans-serif;
+}
+
+a{
+  text-decoration:none;
+}
+
+footer{
+  padding:4px;
+  font-family:verdana;
+  
+}
+footer a{
+  color:blue;
+  font-size:16px;
+  font-family:sans-serif;
+
+}
+
+footer a:hover{
+  color:blue;
+}
+
+hr{
+  background-color:black;
+  height:1px;
+  width:100%;
+  margin-left:2px;
+
+ 
+}
+.opinion{
+  font-family:verdana;
+  width:100%;
+  font-weight:bolder;
+ padding:20px;
+}
+.albums-list{
+  list-style-type:number;
+ 
+}
+
+.albums-list li{
+  font-weight:normal;
+  padding:4px;
+  width:100%;
+  letter-spacing:1px;
+ 
+
+}
+
+
