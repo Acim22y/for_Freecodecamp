@@ -1,0 +1,173 @@
+
+body{
+  box-sizing:border-box;
+  color:white;
+  font-family:'popins', sans-serif;
+  background-image:url(https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80)
+}
+
+.main-heading{
+  text-align:center;
+}
+
+#description{
+  text-align:center;
+  font-style:italic;
+}
+form{
+  background-color:rgba(27, 27, 50, 0.8);
+  margin:0px auto;
+  max-width:500px;
+  width:400px;
+  padding:10px;
+  min-width:300px;
+ 
+}
+
+fieldset{
+  border:none;
+  padding:10px;
+}
+
+label{
+  display:inline-block;
+  width:100%;
+  margin:10px auto;
+}
+
+.info-field input{
+  display:block;
+  margin:5px 10px;
+  width:90%;
+  background-image:linear-gradient(270deg, grey, white);
+  font-size:18px;
+  border-radius:5px;
+  padding:10px;
+  height:30px;
+  border:1px none ;
+ 
+
+}
+
+.info-field label{
+  margin:0px 10px;
+  text-align:left;
+  font-size:20px;
+  padding:0px 0px 10px 0;
+}
+
+hr{
+
+  width:80%;
+  height:2px;
+  border:none;
+  background-image:linear-gradient(45deg, red, blue);
+  margin-bottom:30px;
+}
+.option-set{
+  width:100%;
+  
+ 
+}
+
+
+.dropdown{
+  text-align:center;
+}
+
+.dropdown-label{
+  display:inline-block;
+  font-weight:bold;
+}
+
+#dropdown{
+ margin-top:20px;
+ width:50%;
+ height:30px;
+ cursor:pointer;
+ background-color:black;
+ color:white;
+ border:none;
+ text-align:center;
+
+}
+#dropdown:hover{
+  color:white;
+ 
+}
+
+
+.picking-section{
+  text-align:center;
+  margin-top:30px;
+  font-weight:bold;
+ 
+  
+}
+
+.not-sure{
+ display:inline-block;
+ margin:10px 20px;
+ margin-right:40px;
+ margin-bottom:30px;
+}
+
+
+
+.inner-option-box{
+display:flex;
+width:100%;
+
+}
+
+.multiple-section{
+  width:100%;
+  text-align:left;
+}
+
+.multiple-section p{
+  font-weight:bold;
+  font-family:verdana;
+  font-size:16px;
+  margin-top:30px; 
+}
+
+.multiple-section label input{
+margin-right:10px;
+width:20px;
+
+}
+
+.fourth-one{
+  margin-bottom:30px;
+}
+
+.textarea-section{
+ margin:10px 5px;
+}
+.textarea-section p{
+  font-weight:bold;
+  font-style:italic;
+  text-align:left;
+  padding:0px 10px;
+}
+
+.desc{
+  width:90%;
+  padding:0px 0px;
+  margin-left:10px;
+}
+
+input[type="submit"]{
+  text-align:center;
+  background-color:darkgreen;
+  border:none;
+  width:80%;
+  height:30px;
+  display:block;
+  margin:0px auto;
+  color:white;
+  border-radius:3px;
+  font-size:20px;
+  
+}
