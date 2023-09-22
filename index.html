@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+      <h1 class="main-heading" id="title">
+        FreeCodeCamp Survey Form</h1>
+        <p id="description">Thank you FreeCodeCamp for amazing lessons</p>
+
+        <form id="survey-form">
+          <fieldset class="info-field">
+          <label for="name" id="name-label">Name
+            <input id="name" type="text" placeholder="Enter your Name" required></label>
+
+
+          <label for="email" id="email-label">Email
+            <input type="email" id="email" placeholder="Enter your Email" required>
+          </label>
+          <label for="number"  id="number-label">Age(optional)<input type="number" id="number" placeholder="Age" required max="120" min="12"></label>
+      </fieldset>
+<hr>
+<fieldset class="option-set">
+  <div class="dropdown">
+  <label for="dropdown" class="dropdown-label">How did you find out about FreeCodeCamp?
+  <select id="dropdown">
+    <option>Through mates</option>
+    <option>Online</option>
+    <option>It found me instead</option>
+    </select>
+    </div>
+
+  <div class="picking-section">
+    <p class="likes"> Would you say FreeCodeCamp is the best?</p>
+    <div class="inner-option-box">
+    <label for="yes">
+    <input type="radio" id="yes" name="device" value="yes">Yes
+    </label>
+     <label for="No" class="no">
+    <input type="radio" id="No" name="device" value="no">No
+    </label>
+     <label for="Not-sure" class="not-sure">
+    <input type="radio" id="Not-sure"
+     name="device" value="not-sure">Not sure
+    </label>
+    </div>
+    </div>
+
+    <div class="multiple-section">
+      <p>FreeCodeCamp needs to add?(pick)</p>
+      <label for="improvement-first">
+       <input type="checkbox" value="more-lessons" id="improvement-second">More lessons
+        </label>
+         <label for="improvement-first">
+       <input type="checkbox" value="more-projects" id="improvement-second">More Projects
+        </label>
+               <label for="improvement-third">
+       <input type="checkbox" value="more-projects" id="improvement-third">More Pizza
+        </label>
+                   <label for="improvement-fourth" class="fourth-one">
+       <input type="checkbox" value="more-projects" id="improvement-fourth">World tour
+        </label>
+      </div>
+      <hr>
+      <div class="textarea-section">
+        <p>Feel free to let us know More:</p>
+        <textarea class="desc" id="desc" placeholder="Enter your  kind words" rows="6" cols="30"></textarea>
+        </div>
+  </fieldset>
+  <input type="submit" value="Submit" id="submit" class="submit-button">
+          </form>
+
+      </body>
+  </html>
